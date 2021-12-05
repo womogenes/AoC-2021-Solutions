@@ -1,4 +1,3 @@
-from os import link
 import numpy as np
 
 with open("./day_05.in") as fin:
