@@ -52,8 +52,7 @@ for row, col in low:
             if map[rr][cc] == 9:
                 continue
 
-            if map[rr][cc] > map[row][col]:
-                stack.append((rr, cc))
+            stack.append((rr, cc))
 
     cur_id += 1
 
