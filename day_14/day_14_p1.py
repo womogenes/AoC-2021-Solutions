@@ -23,11 +23,10 @@ def replace(s):
     return new_str
 
 
-for i in range(40):
+for i in range(10):
     template = replace(template)
 
 counts = [template.count(i) for i in elements if template.count(i) != 0]
-print(counts)
 
 ans = max(counts) - min(counts)
 print(ans)
