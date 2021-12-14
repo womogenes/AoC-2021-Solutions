@@ -10,7 +10,7 @@ max_pos = max(data)
 for pos in range(max_pos):
     req = 0
     for i in data:
-        req += abs(pos - req)
+        req += abs(pos - i)
     ans = min(ans, req)
 
 print(ans)
